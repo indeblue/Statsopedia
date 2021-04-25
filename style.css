@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(86, 92, 88);
+    margin: 0;
+    padding: 0;
+}
+
+.char {
+    background-color: wheat;
+    width: fit-content;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.inside {
+    margin: auto;
+}
+
+.navbox {
+    max-width: 1700px;
+    padding: 0 70px;
+    margin: auto;
+    height: 7px;
+}
+
+.navbar {
+    width: 100%;
+    z-index: 999;
+    padding: 21px 0;
+    background: #474747ea;
+    font-family: 'Redressed', cursive;
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky {
+    padding: 15px 0;
+    background: rgb(18, 143, 165);
+}
+
+.navbar .navbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .navbox .logo {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(187, 187, 187);
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar .menu li a {
+    color: rgb(245, 240, 248);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    color: rgb(62, 117, 117);
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.column2 {
+    float: right;
+    width: 50%;
+}
+
+.kl {
+    background-color: rgb(100, 100, 100);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: fit-content;
+    padding: 10px;
+    margin-left: 15px;
+    color: antiquewhite;
+}
+
+.kl h3 {
+    overflow: hidden;
+    border-right: .12em solid rgb(65, 61, 56);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .12em;
+    animation: typing 3.4s steps(39, end), blink-caret .71s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+footer {
+    background: rgb(172, 155, 155);
+    padding: 15px 23px;
+    color: rgb(66, 48, 48);
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+footer span a {
+    color: rgb(62, 117, 117);
+    text-decoration: none;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
+
+table.tabd {
+    padding: 10px;
+    margin: 10px;
+}
+
+.tabd {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 56%;
+}
+
+.tabd td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tabd tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabd tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.tabd tr:hover {
+    background-color: #ddd;
+}
