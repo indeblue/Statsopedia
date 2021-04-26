@@ -80,11 +80,29 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: fit-content;
     padding: 10px;
-    margin-left: 15px;
+    margin-left: 36px;
+    color: antiquewhite;
+}
+
+.kl2 {
+    background-color: rgb(100, 100, 100);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: fit-content;
+    padding: 10px;
+    margin-left: 76px;
     color: antiquewhite;
 }
 
 .kl h3 {
+    overflow: hidden;
+    border-right: .12em solid rgb(65, 61, 56);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .12em;
+    animation: typing 3.4s steps(39, end), blink-caret .71s step-end infinite;
+}
+
+.kl2 h3 {
     overflow: hidden;
     border-right: .12em solid rgb(65, 61, 56);
     white-space: nowrap;
@@ -122,6 +140,7 @@ footer span a:hover {
 table.tabd {
     padding: 10px;
     margin: 10px;
+    margin-left: 76px;
 }
 
 .tabd {
